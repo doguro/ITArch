@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tokuro.searvicetest.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="140dp"
+        tools:layout_editor_absoluteX="35dp">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=""
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="チャージする金額を選んでください"
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¥5,000"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="¥10,000"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <EditText
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="課金合計額"
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="おみくじ画面へ"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

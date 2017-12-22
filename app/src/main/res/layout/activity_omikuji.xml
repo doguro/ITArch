@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tokuro.searvicetest.Omikuji">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="406dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="140dp"
+        tools:layout_editor_absoluteX="35dp">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=""
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <TextView
+            android:id="@+id/textViewYen"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="残りおみくじ回数"
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="おみくじを引く"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_centerVertical="true" />
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=""
+            tools:layout_editor_absoluteY="248dp"
+            tools:layout_editor_absoluteX="154dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="課金画面へ"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:layout_centerVertical="true" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
